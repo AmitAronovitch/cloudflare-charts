@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   cloudflare-tunnel:
   - apiVersion: v2
+    appVersion: 2024.6.1
+    created: "2024-06-26T19:35:06.302816867Z"
+    description: Creation of a cloudflared deployment - a reverse tunnel for an environment
+    digest: 32ba29576fb32a77edbcdac2c185f2c51399467f8ec61c8b97fd713b675ae9a1
+    icon: https://developers.cloudflare.com/cloudflare-one/favicon-32x32.png
+    name: cloudflare-tunnel
+    type: application
+    urls:
+    - https://github.com/AmitAronovitch/cloudflare-charts/releases/download/cloudflare-tunnel-0.3.9/cloudflare-tunnel-0.3.9.tgz
+    version: 0.3.9
+  - apiVersion: v2
     appVersion: 2024.6.0
     created: "2024-06-04T09:52:53.839818638Z"
     description: Creation of a cloudflared deployment - a reverse tunnel for an environment
@@ -102,4 +113,4 @@ entries:
     urls:
     - https://github.com/amitaronovitch/cloudflare-charts/releases/download/cloudflare-tunnel-remote-0.1.1/cloudflare-tunnel-remote-0.1.1.tgz
     version: 0.1.1
-generated: "2024-06-04T09:52:53.839855517Z"
+generated: "2024-06-26T19:35:06.302856863Z"
