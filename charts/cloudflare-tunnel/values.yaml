@@ -23,6 +23,8 @@ cloudflare:
     # in the connection from cloudflared to your local service, not from the internet to cloudflared.
     # - hostname: hello.example.com
     #   service: hello_world
+  # since 2024.2.1 diagnostics are enabled by default. set to false to disable
+  managementDiagnostics: true
 
 image:
   repository: cloudflare/cloudflared

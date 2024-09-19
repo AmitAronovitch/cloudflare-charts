@@ -45,6 +45,9 @@ spec:
             # cloudflared will actually do. This file is created by a ConfigMap.
             - --config
             - /etc/cloudflared/config/config.yaml
+            {{- if not .Values.cloudflare.managementDiagnostics }}
+            - --management-diagnostics=false
+            {{- end }}
             - run
           livenessProbe:
             httpGet:
